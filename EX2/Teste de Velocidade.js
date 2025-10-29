@@ -5,9 +5,9 @@
 
 // User Information Collection
 let firstVehicleType = prompt("Qual é o primeiro veículo?");
-let firstVehicleVel = prompt("Qual a velocidade do primeiro veículo?");
+let firstVehicleVel = parseFloat(prompt("Qual a velocidade do primeiro veículo?"));
 let secondVehicleType = prompt("Qual é o segundo veículo?");
-let secondtVehicleVel = prompt("Qual a velocidade do segundo veículo?");
+let secondtVehicleVel = parseFloat(prompt("Qual a velocidade do segundo veículo?"));
 
 // velocity resolution
 if (firstVehicleVel > secondtVehicleVel) {
